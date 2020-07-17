@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is 2nd assignment</title>
+</head>
+<body>
+<p>Click the button to join the array elements into a string.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var value  = ["Android ", "9"];
+  var x = document.getElementById("demo");
+  x.innerHTML = value.join(" and " + "version is ");
+  document.write("The OS name is " + x.innerHTML + "  ");
+}
+</script>
+</body>
+</html>
